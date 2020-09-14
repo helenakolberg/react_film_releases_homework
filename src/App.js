@@ -5,7 +5,7 @@ import './App.css';
 function App() {
   return (
     <>
-      <FilmBox />
+      <FilmBox className="film-box" />
     </>
   );
 }

@@ -37,9 +37,9 @@ class FilmBox extends Component {
 
     render() {
         return (
-            <>
-                <FilmList />
-            </>
+            <div className="film-box">
+                <FilmList films={this.state.films} />
+            </div>
         );
     }
 
